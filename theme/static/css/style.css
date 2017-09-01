@@ -101,13 +101,13 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
 }
 
 .side--home, .side--blog, .side--archive, .side--projects, .side--about, .side--contact {
-    margin-left: 20px;
+    margin-left: 50px;
     transition: all 0.5s ease 0.2s;
 }
 
 
 .side--home:hover, .side--blog:hover, .side--archive:hover, .side--projects:hover, .side--about:hover, .side--contact:hover {
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 
@@ -119,12 +119,12 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
 	top: 60%;
 }
 
-.parallax-container {
-  z-index: 4;
+#staggered li {
+  opacity: 0;
 }
 
-#blog {
-  z-index: 5;
+.card-action .btn-floating.halfway-fab {
+  bottom: 5px;
 }
 /* Animated background for the portfolio page */
 

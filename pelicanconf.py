@@ -16,6 +16,9 @@ THEME = 'theme'
 
 TYPOGRIFY = True
 
+PLUGINS = ['read_time']
+READ_TIME = 230
+
 
 DIRECT_TEMPLATES = ['home', 'blog', 'archives', 'categories', 'portfolio']
 PAGINATED_DIRECT_TEMPLATES = ['blog', 'archives', 'categories']

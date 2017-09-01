@@ -16,7 +16,18 @@
     });
 
     $('.parallax').parallax();
-   
+    
+    var options = [{
+      selector: '#staggered', 
+      offset: 500, 
+      callback: function(el){
+        Materialize.showStaggeredList($(el))
+      }
+    },    
+   ];
+   Materialize.scrollFire(options);
+
+   $('.materialboxed').materialbox();
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
