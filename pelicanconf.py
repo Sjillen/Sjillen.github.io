@@ -17,11 +17,12 @@ THEME = 'theme'
 TYPOGRIFY = True
 
 
-DIRECT_TEMPLATES = ['home', 'blog', 'archives', 'categories']
+DIRECT_TEMPLATES = ['home', 'blog', 'archives', 'categories', 'portfolio']
 PAGINATED_DIRECT_TEMPLATES = ['blog', 'archives', 'categories']
 
 INDEX_SAVE_AS = 'blog.html'
 HOME_SAVE_AS = 'index.html'
+AUTHOR_SAVE_AS = 'about.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
