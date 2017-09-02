@@ -16,8 +16,11 @@ THEME = 'theme'
 
 TYPOGRIFY = True
 
-PLUGINS = ['read_time']
+PLUGINS = ['read_time', 'disqus_static']
 READ_TIME = 230
+DISQUS_SITENAME = 'sjillen-github-io'
+DISQUS_SECRET_KEY = ''
+DISQUS_PUBLIC_KEY = ''
 
 
 DIRECT_TEMPLATES = ['home', 'blog', 'archives', 'categories', 'portfolio', 'about', 'contact']

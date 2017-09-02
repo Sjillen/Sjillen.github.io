@@ -29,5 +29,15 @@
 
    $('.materialboxed').materialbox();
 
+  $('.fixed-action-btn').openFAB();
+  $('.fixed-action-btn').closeFAB();
+
+  $("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+  });
+
+  
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
