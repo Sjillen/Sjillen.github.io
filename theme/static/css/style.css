@@ -6,6 +6,7 @@
  * Made By MaterializeCSS.com
  */
 
+/*****       Side-Nav menu      *****/
 #side-nav-button {
 	position: fixed;
 	top: 5px;
@@ -110,7 +111,7 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
     margin-left: 70px;
 }
 
-
+/******    Home page ********/
 #caption-1 {
 	top: 40%;
 }
@@ -123,8 +124,36 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
   opacity: 0;
 }
 
+
+/********  blog page **********/
 .card-action .btn-floating.halfway-fab {
   bottom: 5px;
+}
+
+
+
+/********* article page *******/
+
+#article {
+  font-size: 18px;
+}
+
+#tags .python {
+  background-color: #66bb6a;
+}
+
+#tags .php {
+  background-color: #0277bd;
+}
+
+#tags .Cpp {
+  background-color: #ef5350;
+}
+
+#article .flow-text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
 }
 /* Animated background for the portfolio page */
 

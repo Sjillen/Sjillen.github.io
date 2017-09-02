@@ -43,9 +43,14 @@ def init(generator):
         if hasattr(article, 'read_time'):
             return None
 
+        article.word_count = calculate_wc(article.content)
         article.read_time = calculate_wpm(article.content, data, language)
         article.read_time_string = generate_string(
             article.read_time, data, language)
+
+def calculate_wc(text):
+    wc = len(text.split(' '))
+    return wc
 
 def calculate_wpm(text, data, language):
     '''
@@ -57,11 +62,15 @@ def calculate_wpm(text, data, language):
     except LookupError:
         wpm = data['default']['wpm']
 
-    read_time = len(text.split(' ')) / wpm
+    wc = calculate_wc(text)
+
+    read_time = wc / wpm
 
     # Articles cannot take 0 minutes to read
     if read_time == 0:
         return 1
+
+    read_time = int(round(read_time, 0))
 
     return read_time
 
