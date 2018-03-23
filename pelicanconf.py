@@ -13,14 +13,13 @@ TIMEZONE = 'Asia/Tokyo'
 DEFAULT_LANG = 'en'
 
 THEME = 'theme'
-
+ASSET_URL = 'theme/static/css'
 TYPOGRIFY = True
-
 PLUGINS = ['read_time', 'disqus_static']
 READ_TIME = 230
 DISQUS_SITENAME = 'sjillen-github-io'
-DISQUS_SECRET_KEY = ''
-DISQUS_PUBLIC_KEY = ''
+DISQUS_SECRET_KEY = 'ctBJ53GAVx3inVmVl8Dwom7fxgQsJLhSuQfT8Md3QPzp4keroSdKSmGIWxVGbWz8'
+DISQUS_PUBLIC_KEY = 'ydKzJcf262GDMuhZJ9uvf7R49SpSd4Ynoaui7McmUsaHE8bgnOGoRv1HtRrDevgB'
 
 
 DIRECT_TEMPLATES = ['home', 'blog', 'archives', 'categories', 'portfolio', 'about', 'contact']
